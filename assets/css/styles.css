@@ -11,8 +11,9 @@ html{
 }
 /* khôi phục lại cỡ chữ mặc định theo rem */
 body{
+   
     font-size: 1.6rem;
-    
+  
         font-family: "Poppins", sans-serif;
 }
 /* ___________________________ */
@@ -622,7 +623,8 @@ cursor: default;
 footer{
     background: #2e2100;
     padding: 96px 135px 0;
-
+   
+margin-bottom: auto;
 }
 .footer .row{
     display: flex;
