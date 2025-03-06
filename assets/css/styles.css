@@ -693,3 +693,12 @@ width: 35%;
     font-size: 1.4rem;
     line-height: 1.86;
 }
+@media screen and (max-width: 768px) {
+    .blogs .item {
+        width: 100%; /* Mỗi item chiếm 100% chiều rộng */
+        margin-bottom: 20px;
+    }
+    .blogs .item .info {
+        padding: 10px;
+    }
+}
